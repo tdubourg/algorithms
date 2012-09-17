@@ -26,7 +26,10 @@ function &csort(&$values)
 	
 	$o = array();
 	for ($i=$m-1; $i >= 0; $i--) { 
-		$o[$c[$values[$i]]-1] = $values[$i];
+		$position = $c[$values[$i]]-1; # position starting at 0
+		// If you want to sort in reverse order, use the following line instead: 
+		// $position = $m-1-($c[$values[$i]]-1);
+		$o[$position] = $values[$i];
 		$c[$values[$i]]--;
 	}
 	
