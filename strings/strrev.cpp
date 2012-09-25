@@ -1,3 +1,8 @@
+/***
+Author: TD
+License: GPLv3
+***/
+
 #include "iostream"
 #include "string"
 #include "string.h"
@@ -40,7 +45,12 @@ int main(int argc, char const *argv[])
 	b ^= a;
 	a ^= b;
 	cout << a << b << endl;
-	
+
+/** This is a benchmark to see if there is any differences between 
+various ways of swapping the values of 2 variables.
+The question cames to me when implementing the loop of strrev() 
+so I decided to figure it out. This code has nothing to do
+with the implentation of strrev() itself. **/
 #define MAX 3000000000
 	
 	for (int j = 0; j < 4; ++j)

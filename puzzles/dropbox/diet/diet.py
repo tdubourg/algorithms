@@ -1,8 +1,10 @@
 #!/usr/bin/python
 
-"""Dropbox Diet challenge. Using subset sum algorithm
-author: TD
+"""
+Dropbox Diet challenge. Using subset sum algorithm
+Author: TD
 Date: 24/09/12
+License: GPLv3
 """
 
 # T is an addition to the algorithm from Wikipedia, serves as a tracking purpose (we want to know the subset)

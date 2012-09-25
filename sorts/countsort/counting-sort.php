@@ -1,4 +1,9 @@
+#!/usr/bin/php
 <?php
+###
+# Author: TD
+# License: GPLv3
+####
 
 define("MAX", 1000);
 define("NVALUES", 100);

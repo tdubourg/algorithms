@@ -1,4 +1,9 @@
+#!/usr/bin/php
 <?php
+###
+# Author: TD
+# License: GPLv3
+####
 
 $values = array();
 $DBG = true;

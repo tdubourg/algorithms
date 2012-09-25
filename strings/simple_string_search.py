@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+"""
+Author: TD
+License: GPLv3
+"""
+
 def search(str, pattern):
 	l = len(str)
 	l2 = len(pattern)

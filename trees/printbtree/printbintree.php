@@ -1,4 +1,9 @@
+#!/usr/bin/php
 <?php
+###
+# Author: TD
+# License: GPLv3
+####
 
 require_once "colorcli.class.php";
 

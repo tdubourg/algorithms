@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+"""
+Author: TD
+License: GPLv3
+"""
+
 def itoa(i):
 	n = 0
 

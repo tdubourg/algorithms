@@ -1,3 +1,8 @@
+/***
+Author: TD
+License: GPLv3
+***/
+
 #include "string"
 #include "iostream"
 #include "map"

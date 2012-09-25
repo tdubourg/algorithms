@@ -1,4 +1,9 @@
+#!/usr/bin/php
 <?php
+###
+# Author: TD
+# License: GPLv3
+####
 
 define('RED', 1);
 define('BLACK', 0);

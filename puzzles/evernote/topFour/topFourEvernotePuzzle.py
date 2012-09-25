@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+"""
+Author: TD
+License: GPLv3
+"""
+
 four = [float('-inf')] * 5
 
 def try_insert(a):

@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+"""
+Author: TD
+License: GPLv3
+"""
 
 class Trie(object):
     __debug = False

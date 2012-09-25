@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+"""
+Author: TD
+License: GPLv3
+"""
+
 def printparenthesis(l, r, s):
 	if 0 == r:
 		print s

@@ -1,11 +1,15 @@
 #!/usr/bin/python
 
 """
+Author: TD
+License: GPLv3
+"""
+
+"""
 (facebook interview question)
 Problem statement: 
 Assuming a mapping between numbers and letters, starting at 0 (that is to say, 0=a, 1=b, and so on),
 print all the possible translation of a given input integer.
-author: TD
 """
 
 ORD0 = ord('a')

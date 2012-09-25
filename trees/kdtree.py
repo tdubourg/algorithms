@@ -1,3 +1,9 @@
+#!/usr/bin/python
+
+"""
+Code taken from http://en.wikipedia.org/wiki/K-d_tree#Construction
+"""
+
 class Node: pass
  
 def kdtree(point_list, depth=0):

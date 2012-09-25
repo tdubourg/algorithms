@@ -1,4 +1,11 @@
 #!/usr/bin/python
+
+"""
+Author: TD
+License: GPLv3
+"""
+
+
 import math
 # Newton's iterative method
 

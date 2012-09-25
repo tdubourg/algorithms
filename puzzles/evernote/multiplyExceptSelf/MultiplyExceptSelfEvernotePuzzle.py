@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+"""
+Author: TD
+License: GPLv3
+"""
+
 n = int(raw_input())
 
 l = [0] * n

@@ -1,3 +1,10 @@
+#!/usr/bin/python
+
+"""
+Author: TD
+License: GPLv3
+"""
+
 def upper(s):
 	l = len(s)
 	s2 = [c for c in s]

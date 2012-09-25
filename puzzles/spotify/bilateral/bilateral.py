@@ -1,4 +1,10 @@
 #!/usr/bin/python
+
+"""
+Author: TD
+License: GPLv3
+"""
+
 import sys
 from copy import copy
 from collections import deque

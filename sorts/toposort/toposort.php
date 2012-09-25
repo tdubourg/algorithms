@@ -1,4 +1,10 @@
+#!/usr/bin/php
 <?php
+###
+# Author: TD
+# License: GPLv3
+####
+
 // Algorithm: 
 // L ← Empty list that will contain the sorted elements
 // S ← Set of all nodes with no incoming edges

@@ -1,3 +1,8 @@
+/***
+Author: TD
+License: GPLv3
+***/
+
 #include "stdlib.h"
 #include "stdio.h"
 #include "string.h"

@@ -1,3 +1,8 @@
+/***
+Author: TD
+License: GPLv3
+***/
+
 class StringPermutation {
     public static void main(String[] args) {
         if (args.length <= 0) {

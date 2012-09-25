@@ -1,3 +1,11 @@
+/***
+Author: TD
+License: GPLv3
+Microsoft Ireland 2012 Internship Application Form Coding Question
+Problem statement: check if all the braces (including parenthesis, curly brackets and angle brackets) 
+are correctly closed (in the right order... intuitively: just a syntax checking)
+***/
+
 #include <vector>
 #include <iostream>
 using namespace std;

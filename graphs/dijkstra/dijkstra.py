@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+"""
+Author: TD
+License: GPLv3
+"""
+
 import Queue
 DBG = False
 # Priority queue holding the distances as the key and the node as the value (thus the nearest node is the one on the top)

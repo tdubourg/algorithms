@@ -1,3 +1,9 @@
+
+"""
+Author: TD
+License: GPLv3
+"""
+
 import sys
 from collections import deque
 

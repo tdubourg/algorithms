@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+"""
+Author: TD
+License: GPLv3
+"""
+
 from math import ceil
 
 # Too slow or overflows with huge values (factorial is factorial!)
