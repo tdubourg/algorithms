@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+"""
+Author: TD
+License: GPLv3
+"""
+
 # Explanation about this one because the "title" is not obvious:
 # We are looking for the minimum continous set of numbers in an array (continuous = from a given index
 # to another one without skipping some indice) that forms the maximum sum
