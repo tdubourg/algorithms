@@ -1,0 +1,22 @@
+10
+R 2
+A 10
+Fee
+Fi
+Fo
+
+Fee
+Fi
+Fo
+Fee
+Fi
+Fo
+L
+R 10
+L
+A 1
+ABC
+L
+R 3
+L
+Q

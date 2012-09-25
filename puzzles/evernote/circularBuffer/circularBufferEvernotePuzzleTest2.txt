@@ -1,0 +1,20 @@
+10
+A 1
+Inter
+A 2
+View
+Street
+A 10
+Fee
+Fo
+Fum
+Forum
+thread
+lang
+c++
+java
+c
+python
+R 3
+L
+Q
