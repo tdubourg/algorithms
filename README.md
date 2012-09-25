@@ -1,6 +1,6 @@
 == Algorithms ==
 
-This repo holds many implemetentations of various useful aglrorithms. From very
+This repo holds various implementations of various useful aglorithms. From very
 naive / standard ones to more complex ones (see in particular the "puzzles"
 folder, with NP-Complete problems, among others).
 
