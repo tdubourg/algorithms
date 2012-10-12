@@ -253,7 +253,6 @@ int main(int argc, char const *argv[])
 // 		}
 // #endif
 		// 
-		// h = heap_sort(h);
 		for (int i = 0; i < n; ++i)
 		{
 			insert_heap(h, values[i]);
@@ -269,6 +268,7 @@ int main(int argc, char const *argv[])
 // #endif
 		
 #ifdef PRINT_VALUES
+		h = heap_sort(h);
 		printf("\nHeap content:\n");
 		for (int i = 0; i < n; ++i)
 		{
