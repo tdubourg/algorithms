@@ -3,6 +3,15 @@
 """
 Author: TD
 License: GPLv3
+Basic algorithm explanation: 
+
+- We store the best distance from the start to every node in an array (initially, every distance is INFTY). 
+- We store the nodes in a priority queue, with the most priotized one being the node the nearest (smallest distance)
+- We repeat, until we either find the destination or the priority queue is empty:
+	- Take a node out of the priority queue
+	- Test if going through this one to the neighboors is better than the previous paths to those neighboors
+	- If yes, update the best path to the neighboor
+	- If no, don't do anything
 """
 
 import Queue
