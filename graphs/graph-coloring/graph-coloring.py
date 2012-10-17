@@ -1,5 +1,15 @@
 #!/usr/bin/python
 
+"""
+Date: 18/10/12
+Author: TD
+License: GPLv3
+Description: Greedy graph coloring using the Welsh-Powell heuristic/algorithm. 
+We first sort the vertices using their degree and then use greedy coloring.
+
+"""
+
+
 class Node:
 	color= None
 	key= None
@@ -62,8 +72,10 @@ class Graph:
 		if self._dbg:
 			print "self.nodes=", self.nodes
 
+		self.nodes = sorted(self.nodes, key=self.getdegree)
+
 		while len(self.nodes) != 0:
-			self.nodes = sorted(self.nodes, key=self.getdegree)
+			
 			node = self.nodes.pop()
 			color = self.findSmallestNotInNeighboors(node)
 			if self._dbg:
